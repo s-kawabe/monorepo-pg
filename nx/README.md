@@ -1,6 +1,20 @@
 
 
-# Nx
+# Tips
+
+## affected 
+変更の影響があるプロジェクトに対してのみテスト、ビルドを実行する
+
+## nx serve
+`nx serve [app名]`でapp別に起動可能
+
+## npx nx list 
+install済みとそうでないpluginの一覧を出力できる
+
+
+---
+
+# nx
 
 This project was generated using [Nx](https://nx.dev).
 

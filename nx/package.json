@@ -6,8 +6,8 @@
     "start": "nx serve",
     "build": "nx build",
     "test": "nx test",
-    "generate-lib": "nx g @nrwl/react:app",
-    "generate-app": "nx g @nrwl/react:lib"
+    "generate-app": "nx g @nrwl/next:app",
+    "generate-lib": "nx g @nrwl/next:lib"
   },
   "private": true,
   "dependencies": {
