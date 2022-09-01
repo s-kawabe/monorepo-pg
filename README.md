@@ -1,9 +1,12 @@
 # monorepo prayglound
-
+ 
+ →turborepo vs nx 👀
+ https://github.com/nrwl/nx/blob/0b9eb65b8b23c1d4fad232bde6c03fd617a085d2/docs/shared/guides/turbo-and-nx.md
 ## nx
 `tutorial`
 https://nx.dev/getting-started/react-tutorial
 
+`setup`
 ```
 npx create-nx-workspace@latest
 
