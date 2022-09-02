@@ -11,6 +11,19 @@
 ## npx nx list 
 install済みとそうでないpluginの一覧を出力できる
 
+## api生成
+`yarn add --dev @nrwl/nest`
+でnest用pluginをinstall後
+`nx generate @nrwl/nest:application api --frontendProject todo`
+とする。
+
+## API繋ぎ込み
+`proxy.conf.json`あたりによって、APIのbase pathはlocalでは気にしなくてよくなっている？
+
+tutoritalではbase pathを省略してリクエスト先を指定しているのでおそらくそういうことになっている。
+https://nx.dev/react-tutorial/04-connect-to-api
+
+
 
 ---
 

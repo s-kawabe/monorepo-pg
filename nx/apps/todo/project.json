@@ -23,7 +23,8 @@
       "defaultConfiguration": "development",
       "options": {
         "buildTarget": "todo:build",
-        "dev": true
+        "dev": true,
+        "proxyConfig": "apps/todo/proxy.conf.json"
       },
       "configurations": {
         "development": {
