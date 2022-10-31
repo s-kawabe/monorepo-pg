@@ -8,6 +8,8 @@
 ## nx serve
 `nx serve [app名]`でapp別に起動可能
 
+apiを立ち上げる場合は `nx serve api`
+
 ## npx nx list 
 install済みとそうでないpluginの一覧を出力できる
 
