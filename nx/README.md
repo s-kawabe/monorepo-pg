@@ -25,7 +25,28 @@ install済みとそうでないpluginの一覧を出力できる
 tutoritalではbase pathを省略してリクエスト先を指定しているのでおそらくそういうことになっている。
 https://nx.dev/react-tutorial/04-connect-to-api
 
+nestで以下のようなcontrollerを作ると
+```ts
+@Controller()
+export class AppController {
+  constructor(private readonly appService: AppService) {}
 
+  @Get('todo')
+  getData() {
+    return this.appService.getData();
+  }
+
+  @Post('todo')
+  addTodo() {
+    return this.appService.addTodo()
+  }
+}
+```
+
+GET localhost:3333/api/todo
+POST localhost:3333/api/todo
+
+のような形でフロントエンドから通信できる。
 
 ---
 
